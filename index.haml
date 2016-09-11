@@ -7,6 +7,8 @@
     %meta{name:"viewport", content:"width=device-width, initial-scale=1"}
     %script{src:"js/vendor/modernizr-2.8.3.min.js"}
     %link{rel:"stylesheet", href:"css/normalize.css"}
+    %link{rel:"stylesheet", href:"css/main.css"}
+
 
   %body
     ="<!--[if lt IE 8]>"
@@ -18,3 +20,7 @@
         actualiza tu navegador
       para una mejor experiencia
     ="<![endif]-->"
+    .video-container
+      %video{autoplay:true,loop:true,width:"1280",height:"720"}
+        %source{src:"/videos/mp4/bbq.mp4",typ:"video/mp4"}
+        %source{src:"/videos/webm/bbq.webm",typ:"video/webm"}

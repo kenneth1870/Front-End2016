@@ -1,0 +1,27 @@
+html,body{
+	margin:0px;
+	padding: 0px;
+	font-family: Helvetica-Neue, Arial, Roboto, sans-serif;
+	background-color: #eee;
+}
+#message{
+	padding:10px 15px;
+	background-color: #222;
+	color:white;
+	text-align:center;
+	margin:0px;
+}
+.container{
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+	padding:1em;
+	margin:0 auto;
+}
+#map img{
+	max-width: 100%;
+}
+@media only screen and (min-width: 960px) {
+	.container{
+		width:80%;
+	}	
+}
